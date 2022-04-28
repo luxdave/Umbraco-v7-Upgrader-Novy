@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+  <files>
+    <file>
+      <guid>LICENSE</guid>
+      <orgPath>/App_Plugins/YouTube.Editor</orgPath>
+      <orgName>LICENSE</orgName>
+    </file>
+    <file>
+      <guid>package.manifest</guid>
+      <orgPath>/App_Plugins/YouTube.Editor</orgPath>
+      <orgName>package.manifest</orgName>
+    </file>
+    <file>
+      <guid>README.md</guid>
+      <orgPath>/App_Plugins/YouTube.Editor</orgPath>
+      <orgName>README.md</orgName>
+    </file>
+    <file>
+      <guid>style.css</guid>
+      <orgPath>/App_Plugins/YouTube.Editor/css</orgPath>
+      <orgName>style.css</orgName>
+    </file>
+    <file>
+      <guid>controller.js</guid>
+      <orgPath>/App_Plugins/YouTube.Editor/js</orgPath>
+      <orgName>controller.js</orgName>
+    </file>
+    <file>
+      <guid>en-US.xml</guid>
+      <orgPath>/App_Plugins/YouTube.Editor/lang</orgPath>
+      <orgName>en-US.xml</orgName>
+    </file>
+    <file>
+      <guid>pt-BR.xml</guid>
+      <orgPath>/App_Plugins/YouTube.Editor/lang</orgPath>
+      <orgName>pt-BR.xml</orgName>
+    </file>
+    <file>
+      <guid>view.html</guid>
+      <orgPath>/App_Plugins/YouTube.Editor/views</orgPath>
+      <orgName>view.html</orgName>
+    </file>
+  </files>
+  <info>
+    <package>
+      <name>YouTube Video</name>
+      <version>1.0</version>
+      <license url="http://opensource.org/licenses/MIT">MIT License</license>
+      <url>https://github.com/ccasalicchio/UmbracoPackages/tree/master/YouTube.Editor</url>
+      <requirements>
+        <major>7</major>
+        <minor>4</minor>
+        <patch>3</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>Carlos Casalicchio</name>
+      <website>http://www.ccasalicchio.com</website>
+    </author>
+    <readme><![CDATA[A simple YouTube property editor that has a preview box for the video.
+
+You may insert the Id of any YouTube video and below the video box will display the preview. 
+
+Saves as JSON so it can be easily accessed. 
+
+Create a new Data Type using YouTube.Editor, then add it as a property to your document.]]></readme>
+  </info>
+  <DocumentTypes />
+  <Templates />
+  <Stylesheets />
+  <Macros />
+  <DictionaryItems />
+  <Languages />
+  <DataTypes />
+</umbPackage>

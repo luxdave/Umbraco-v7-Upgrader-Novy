@@ -6,6 +6,21 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <Content Include="App_Plugins\YoutubeVideo\en-US.xml" />
+      <Content Include="App_Plugins\YoutubeVideo\package.xml" />
+      <Content Include="App_Plugins\YoutubeVideo\pt-BR.xml" />
+      <Content Include="App_Plugins\YoutubeVideo\style.css" />
+      <Content Include="App_Plugins\YoutubeVideo\view.html" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="App_Plugins\YoutubeVideo\controller.js" />
+      <None Include="App_Plugins\YoutubeVideo\LICENSE" />
+      <None Include="App_Plugins\YoutubeVideo\package.manifest" />
+      <None Include="App_Plugins\YoutubeVideo\README.md" />
+    </ItemGroup>
+
+    <ItemGroup>
         <PackageReference Include="Umbraco.Cms" Version="9.2.0" />
     </ItemGroup>
 
