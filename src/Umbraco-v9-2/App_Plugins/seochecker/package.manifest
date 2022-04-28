@@ -1,0 +1,9 @@
+﻿{
+  "javascript": [
+    "~/App_Plugins/seochecker/backoffice/seochecker.js"
+  ],
+  "css": [
+    "~/App_Plugins/seochecker/css/seochecker.css",
+    "~/App_Plugins/seochecker/css/seochecker-propertyeditors.css"
+  ]
+}

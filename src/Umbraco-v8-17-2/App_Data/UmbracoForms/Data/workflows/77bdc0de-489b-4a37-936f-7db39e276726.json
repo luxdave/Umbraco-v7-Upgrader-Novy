@@ -1,0 +1,16 @@
+{
+  "id": "77bdc0de-489b-4a37-936f-7db39e276726",
+  "name": "Send template email to info@superbold.nl",
+  "form": "a50f8380-bce8-4304-8484-63967f8a38a3",
+  "active": true,
+  "workflowTypeId": "17c61629-d984-4e86-b43b-a8407b3efea9",
+  "executesOn": "Submitted",
+  "settings": {
+    "Email": "info@superbold.nl",
+    "SenderEmail": "",
+    "Subject": "The Form '{form_name}' was submitted",
+    "RazorViewFilePath": "Forms/Emails/Example-Template.cshtml",
+    "Attachment": ""
+  },
+  "sortOrder": 1
+}

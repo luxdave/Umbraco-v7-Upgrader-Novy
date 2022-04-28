@@ -1,3 +1,24 @@
+# Specific instruction to upgrade NOVY to 9.4.3
+* set v7 project as startup project
+* set version in web.config to 7.15.6 in v7 project
+* run v7 project (Ctrl + F5)
+* make sure c:\TestMailMessages\ exists. The email with the resetpassword link will be stored here
+* reset password on 7.15.7
+* run upgrade
+* you'll get an error message at the end. That's fine.
+* remove the following datatypes:
+ - Our.Umbraco.RedirectsViewer
+ - Our.Umbraco.Vorto
+ - skybrud inbound redirect
+* set version in web.config to 7.15.7 in v8 project
+* set v8 project as startup project
+* Store forms in database following these steps: https://our.umbraco.com/documentation/add-ons/umbracoforms/developer/Forms-in-the-Database/index-v8#migrating-forms-in-files-into-a-site
+* run v8 project (Ctrl + F5)
+* run upgrade
+* set v9 project as startup project
+* run v9 project (Ctrl + F5)
+
+
 # Umbraco-v7-Upgrader
 
 Use this repo to upgrade an Umbraco v7 database to v9.
