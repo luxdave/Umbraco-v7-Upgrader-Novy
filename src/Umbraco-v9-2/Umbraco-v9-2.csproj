@@ -191,7 +191,7 @@
       <Content Include="App_Plugins\Youtube.Editor\en-US.xml" />
       <Content Include="App_Plugins\Youtube.Editor\package.xml" />
       <Content Include="App_Plugins\Youtube.Editor\pt-BR.xml" />
-      <Content Include="App_Plugins\Youtube.Editor\view.html" />
+      <Content Include="App_Plugins\Youtube.Editor\Views\view.html" />
     </ItemGroup>
 
     <ItemGroup>
