@@ -68,6 +68,9 @@
     <Reference Include="Diplo.GodMode, Version=1.5.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Diplo.GodMode.1.5.1\lib\net45\Diplo.GodMode.dll</HintPath>
     </Reference>
+    <Reference Include="DTG.Spreadsheet, Version=2.7.0.0, Culture=neutral, PublicKeyToken=7b835b529fb706c3, processorArchitecture=MSIL">
+      <HintPath>..\packages\SEOChecker.2.2.4\lib\DTG.Spreadsheet.dll</HintPath>
+    </Reference>
     <Reference Include="Examine, Version=0.1.90.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Examine.0.1.90\lib\net45\Examine.dll</HintPath>
     </Reference>
@@ -94,6 +97,9 @@
     </Reference>
     <Reference Include="Lucene.Net, Version=2.9.4.1, Culture=neutral, PublicKeyToken=85089178b9ac3181, processorArchitecture=MSIL">
       <HintPath>..\packages\Lucene.Net.2.9.4.1\lib\net40\Lucene.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="LumenWorks.Framework.IO, Version=3.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SEOChecker.2.2.4\lib\LumenWorks.Framework.IO.dll</HintPath>
     </Reference>
     <Reference Include="MarkdownSharp, Version=1.14.5.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Markdown.1.14.7\lib\net45\MarkdownSharp.dll</HintPath>
@@ -153,8 +159,47 @@
     <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
       <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
     </Reference>
+    <Reference Include="PackageGarden.Licensing, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SEOChecker.2.2.4\lib\PackageGarden.Licensing.dll</HintPath>
+    </Reference>
     <Reference Include="Semver, Version=1.1.2.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\semver.1.1.2\lib\net451\Semver.dll</HintPath>
+    </Reference>
+    <Reference Include="SEOChecker, Version=2.2.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SEOChecker.2.2.4\lib\SEOChecker.dll</HintPath>
+    </Reference>
+    <Reference Include="SEOChecker.Core, Version=2.2.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SEOChecker.2.2.4\lib\SEOChecker.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="SEOChecker.DataTypes, Version=2.2.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SEOChecker.2.2.4\lib\SEOChecker.DataTypes.dll</HintPath>
+    </Reference>
+    <Reference Include="SEOChecker.Events, Version=2.2.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SEOChecker.2.2.4\lib\SEOChecker.Events.dll</HintPath>
+    </Reference>
+    <Reference Include="SEOChecker.Extensions, Version=2.2.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SEOChecker.2.2.4\lib\SEOChecker.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SEOChecker.Library, Version=2.2.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SEOChecker.2.2.4\lib\SEOChecker.Library.dll</HintPath>
+    </Reference>
+    <Reference Include="SEOChecker.Logging, Version=2.2.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SEOChecker.2.2.4\lib\SEOChecker.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="SEOChecker.MVC, Version=2.2.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SEOChecker.2.2.4\lib\SEOChecker.MVC.dll</HintPath>
+    </Reference>
+    <Reference Include="SEOChecker.PropertyEditorConverters, Version=2.2.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SEOChecker.2.2.4\lib\SEOChecker.PropertyEditorConverters.dll</HintPath>
+    </Reference>
+    <Reference Include="SEOChecker.Providers, Version=2.2.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SEOChecker.2.2.4\lib\SEOChecker.Providers.dll</HintPath>
+    </Reference>
+    <Reference Include="SEOChecker.UI, Version=2.2.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SEOChecker.2.2.4\lib\SEOChecker.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="SEOChecker.Validators, Version=2.2.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SEOChecker.2.2.4\lib\SEOChecker.Validators.dll</HintPath>
     </Reference>
     <Reference Include="SQLCE4Umbraco, Version=1.0.7706.20576, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\UmbracoCms.Core.7.15.7\lib\net452\SQLCE4Umbraco.dll</HintPath>
@@ -260,6 +305,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Logs\UmbracoTraceLog.NEPTUNE.txt" />
+    <Content Include="App_Data\TEMP\ClientDependency\NEPTUNE-c216f4a0e9bed35bb6b7666057309494-map.xml" />
+    <Content Include="App_Data\TEMP\DistCache\LMW3SVC2ROOT-lastsynced.txt" />
     <Content Include="App_Plugins\GodMode\BackOffice\Css\godMode.css" />
     <Content Include="App_Plugins\GodMode\BackOffice\GodModeTree\contentBrowser.html" />
     <Content Include="App_Plugins\GodMode\BackOffice\GodModeTree\dataTypeBrowser.html" />
@@ -291,6 +339,106 @@
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.controller.js" />
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.htm" />
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.resource.js" />
+    <Content Include="App_Plugins\seochecker\backoffice\seochecker\configurationissues.controller.js" />
+    <Content Include="App_Plugins\seochecker\backoffice\seochecker\configurationissues.html" />
+    <Content Include="App_Plugins\seochecker\backoffice\seochecker\definitionsettings.html" />
+    <Content Include="App_Plugins\seochecker\backoffice\seochecker\definittionsettings.controller.js" />
+    <Content Include="App_Plugins\seochecker\backoffice\seochecker\delete.controller.js" />
+    <Content Include="App_Plugins\seochecker\backoffice\seochecker\delete.html" />
+    <Content Include="App_Plugins\seochecker\backoffice\seochecker\domainsettings.controller.js" />
+    <Content Include="App_Plugins\seochecker\backoffice\seochecker\domainsettings.html" />
+    <Content Include="App_Plugins\seochecker\backoffice\seochecker\emailsettings.controller.js" />
+    <Content Include="App_Plugins\seochecker\backoffice\seochecker\emailsettings.html" />
+    <Content Include="App_Plugins\seochecker\backoffice\seochecker\generalsettings.controller.js" />
+    <Content Include="App_Plugins\seochecker\backoffice\seochecker\generalsettings.html" />
+    <Content Include="App_Plugins\seochecker\backoffice\seochecker\ignoredconfigurationissues.controller.js" />
+    <Content Include="App_Plugins\seochecker\backoffice\seochecker\ignoredconfigurationissues.html" />
+    <Content Include="App_Plugins\seochecker\backoffice\seochecker\ignoredinboundlinkissues.controller.js" />
+    <Content Include="App_Plugins\seochecker\backoffice\seochecker\ignoredinboundlinkissues.html" />
+    <Content Include="App_Plugins\seochecker\backoffice\seochecker\ignoredvalidationissues.controller.js" />
+    <Content Include="App_Plugins\seochecker\backoffice\seochecker\ignoredvalidationissues.html" />
+    <Content Include="App_Plugins\seochecker\backoffice\seochecker\inboundlinkissues.controller.js" />
+    <Content Include="App_Plugins\seochecker\backoffice\seochecker\inboundlinkissues.html" />
+    <Content Include="App_Plugins\seochecker\backoffice\seochecker\notifications.controller.js" />
+    <Content Include="App_Plugins\seochecker\backoffice\seochecker\notifications.html" />
+    <Content Include="App_Plugins\seochecker\backoffice\seochecker\permissionsettings.controller.js" />
+    <Content Include="App_Plugins\seochecker\backoffice\seochecker\permissionsettings.html" />
+    <Content Include="App_Plugins\seochecker\backoffice\seochecker\redirectmanager.controller.js" />
+    <Content Include="App_Plugins\seochecker\backoffice\seochecker\redirectmanager.html" />
+    <Content Include="App_Plugins\seochecker\backoffice\seochecker\validate.controller.js" />
+    <Content Include="App_Plugins\seochecker\backoffice\seochecker\validate.html" />
+    <Content Include="App_Plugins\seochecker\backoffice\seochecker\validationissues.controller.js" />
+    <Content Include="App_Plugins\seochecker\backoffice\seochecker\validationissues.html" />
+    <Content Include="App_Plugins\seochecker\backoffice\seochecker\validationqueue.controller.js" />
+    <Content Include="App_Plugins\seochecker\backoffice\seochecker\validationqueue.html" />
+    <Content Include="App_Plugins\seochecker\css\seochecker-propertyeditors.css" />
+    <Content Include="App_Plugins\seochecker\css\seochecker.css" />
+    <Content Include="App_Plugins\seochecker\Dashboard\seocheckerdashboard.controller.js" />
+    <Content Include="App_Plugins\seochecker\Dashboard\seocheckerdashboard.html" />
+    <Content Include="App_Plugins\seochecker\datatypes\Redirects\redirectsController.js" />
+    <Content Include="App_Plugins\seochecker\datatypes\Redirects\redirectseditor.html" />
+    <Content Include="App_Plugins\seochecker\datatypes\RobotsTxtEditor\robotstxteditor.html" />
+    <Content Include="App_Plugins\seochecker\datatypes\SEOChecker\seoCheckerPropertyEditor.html" />
+    <Content Include="App_Plugins\seochecker\datatypes\SEOChecker\seoCheckerPropertyEditorController.js" />
+    <Content Include="App_Plugins\seochecker\datatypes\Social\seocheckersocialpropertyeditor.controller.js" />
+    <Content Include="App_Plugins\seochecker\datatypes\Social\seocheckersocialpropertyeditor.html" />
+    <Content Include="App_Plugins\seochecker\datatypes\XMLSitemapEditor\xmlsitemapeditor.html" />
+    <Content Include="App_Plugins\seochecker\dialogs\confirm.controller.js" />
+    <Content Include="App_Plugins\seochecker\dialogs\confirm.html" />
+    <Content Include="App_Plugins\seochecker\dialogs\redirects\deleteredirects.controller.js" />
+    <Content Include="App_Plugins\seochecker\dialogs\redirects\deleteredirects.html" />
+    <Content Include="App_Plugins\seochecker\dialogs\redirects\editdirects.controller.js" />
+    <Content Include="App_Plugins\seochecker\dialogs\redirects\editredirects.html" />
+    <Content Include="App_Plugins\seochecker\dialogs\redirects\exportredirects.controller.js" />
+    <Content Include="App_Plugins\seochecker\dialogs\redirects\exportredirects.html" />
+    <Content Include="App_Plugins\seochecker\dialogs\redirects\importredirects.controller.js" />
+    <Content Include="App_Plugins\seochecker\dialogs\redirects\importredirects.html" />
+    <Content Include="App_Plugins\seochecker\dialogs\validation\deleteconfigurationissues.controller.js" />
+    <Content Include="App_Plugins\seochecker\dialogs\validation\deleteconfigurationissues.html" />
+    <Content Include="App_Plugins\seochecker\dialogs\validation\deletevalidationissues.controller.js" />
+    <Content Include="App_Plugins\seochecker\dialogs\validation\deletevalidationissues.html" />
+    <Content Include="App_Plugins\seochecker\dialogs\validation\revalidatevalidationissues.controller.js" />
+    <Content Include="App_Plugins\seochecker\dialogs\validation\revalidatevalidationissues.html" />
+    <Content Include="App_Plugins\seochecker\directives\seocheckerheader.js" />
+    <Content Include="App_Plugins\seochecker\directives\seocheckerlicenseinfo.js" />
+    <Content Include="App_Plugins\seochecker\directives\valShowError.js" />
+    <Content Include="App_Plugins\seochecker\fields\autovalidationoptions.controller.js" />
+    <Content Include="App_Plugins\seochecker\fields\autovalidationoptions.html" />
+    <Content Include="App_Plugins\seochecker\fields\booleancheckbox.controller.js" />
+    <Content Include="App_Plugins\seochecker\fields\booleancheckbox.html" />
+    <Content Include="App_Plugins\seochecker\fields\dayselector.html" />
+    <Content Include="App_Plugins\seochecker\fields\dropdownselector.controller.js" />
+    <Content Include="App_Plugins\seochecker\fields\dropdownselector.html" />
+    <Content Include="App_Plugins\seochecker\fields\ignorecheckbox.html" />
+    <Content Include="App_Plugins\seochecker\fields\imagepropertydropdown.controller.js" />
+    <Content Include="App_Plugins\seochecker\fields\imagepropertydropdown.html" />
+    <Content Include="App_Plugins\seochecker\fields\notfoundpageselector.html" />
+    <Content Include="App_Plugins\seochecker\fields\propertydropdown.controller.js" />
+    <Content Include="App_Plugins\seochecker\fields\propertydropdown.html" />
+    <Content Include="App_Plugins\seochecker\fields\propertyselector.controller.js" />
+    <Content Include="App_Plugins\seochecker\fields\propertyselector.html" />
+    <Content Include="App_Plugins\seochecker\fields\robotstxtpreview.html" />
+    <Content Include="App_Plugins\seochecker\fields\seocontentpicker.html" />
+    <Content Include="App_Plugins\seochecker\fields\seocontentpickercontroller.js" />
+    <Content Include="App_Plugins\seochecker\fields\timeselector.controller.js" />
+    <Content Include="App_Plugins\seochecker\fields\timeselector.html" />
+    <Content Include="App_Plugins\seochecker\fields\uploadfield.html" />
+    <Content Include="App_Plugins\seochecker\fields\xmlsitemappreview.html" />
+    <Content Include="App_Plugins\seochecker\images\facebook-active.png" />
+    <Content Include="App_Plugins\seochecker\images\facebook.png" />
+    <Content Include="App_Plugins\seochecker\images\twitter-active.png" />
+    <Content Include="App_Plugins\seochecker\images\twitter.png" />
+    <Content Include="App_Plugins\seochecker\lang\da-DK.xml" />
+    <Content Include="App_Plugins\seochecker\lang\da.xml" />
+    <Content Include="App_Plugins\seochecker\lang\de-DE.xml" />
+    <Content Include="App_Plugins\seochecker\lang\de.xml" />
+    <Content Include="App_Plugins\seochecker\lang\en-GB.xml" />
+    <Content Include="App_Plugins\seochecker\lang\en-US.xml" />
+    <Content Include="App_Plugins\seochecker\lang\en.xml" />
+    <Content Include="App_Plugins\seochecker\lang\nl-NL.xml" />
+    <Content Include="App_Plugins\seochecker\lang\nl.xml" />
+    <Content Include="App_Plugins\seochecker\resources\seocheckerbackofficeresources.js" />
+    <Content Include="App_Plugins\seochecker\services\seocheckerhelper.js" />
     <Content Include="config\grid.editors.config.js" />
     <Content Include="config\Lang\cs-CZ.user.xml" />
     <Content Include="config\Lang\da-DK.user.xml" />
@@ -342,6 +490,96 @@
     <Content Include="config\404handlers.config" />
     <Content Include="config\migrationResolvers.config" />
     <Content Include="App_Plugins\GodMode\package.manifest" />
+    <Content Include="App_Plugins\seochecker\mailtemplates\Web.config" />
+    <Content Include="App_Plugins\seochecker\mailtemplates\scheduledtask-mail.cshtml" />
+    <Content Include="App_Plugins\seochecker\mailtemplates\notification-mail.cshtml" />
+    <Content Include="App_Plugins\seochecker\Config\SEOChecker_BotFilter.config" />
+    <Content Include="App_Data\packages\created\createdPackages.config" />
+    <Content Include="App_Data\packages\installed\installedPackages.config" />
+    <Content Include="App_Data\TEMP\ClientDependency\849256989_00ebe5827d0748e1872ca73cdd4e9bcd.cdJ" />
+    <Content Include="App_Data\TEMP\ClientDependency\849256989_09463626b8284356a0de18c58fe656a5.cdC" />
+    <Content Include="App_Data\TEMP\ClientDependency\849256989_0a2b6e70182a4a1fa0626745aca44b04.cdJ" />
+    <Content Include="App_Data\TEMP\ClientDependency\849256989_10d9b75ebd9c4a5f983f57bbfbf8a42c.cdJ" />
+    <Content Include="App_Data\TEMP\ClientDependency\849256989_1297b10a63bd4593902718f5f5b06aee.cdJ" />
+    <Content Include="App_Data\TEMP\ClientDependency\849256989_250495e377214f1da500a6cbe49190dc.cdJ" />
+    <Content Include="App_Data\TEMP\ClientDependency\849256989_715e88564f65439290342391cba3d3e5.cdJ" />
+    <Content Include="App_Data\TEMP\ClientDependency\849256989_9d19d1cf6c9943febee6b280a55f353f.cdJ" />
+    <Content Include="App_Data\TEMP\ClientDependency\849256989_a2bb286d0e0549ddb8dab50177451fae.cdC" />
+    <Content Include="App_Data\TEMP\ClientDependency\849256989_bcac0400a1744348bcf956345f5ed367.cdJ" />
+    <Content Include="App_Data\TEMP\ClientDependency\849256989_c2f3af9afe964536bde568755a7ee094.cdC" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\segments.gen" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\segments_g1" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_h3.cfx" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_hd.fnm" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_hd.frq" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_hd.nrm" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_hd.prx" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_hd.tii" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_hd.tis" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_hd_3h.del" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_ho.fnm" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_ho.frq" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_ho.nrm" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_ho.prx" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_ho.tii" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_ho.tis" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_ho_3.del" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_hp.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_hq.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_hr.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_ic.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_ix.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_ji.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_kd.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_lh.cfx" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_li.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_lj.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_lj.cfx" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_lk.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\InternalMember\Index\segments.gen" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\InternalMember\Index\segments_e" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\InternalMember\Index\write.lock" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\InternalMember\Index\_5.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\InternalMember\Index\_5_1.del" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\segments.gen" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\segments_sf" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\write.lock" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_oh.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_oh_7.del" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_oi.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_oi_9.del" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_tt.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_tt_1.del" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_tu.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_tu_1.del" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_tv.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_tv_1.del" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_tw.fdt" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_tw.fdx" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_tw.fnm" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_tw.frq" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_tw.nrm" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_tw.prx" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_tw.tii" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_tw.tis" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_tw.tvd" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_tw.tvf" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_tw.tvx" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_v1.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_v2.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_v2_1.del" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_v3.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_v3_1.del" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_v4.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_v4_1.del" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_v5.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_v5_1.del" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_v6.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_v6_1.del" />
+    <Content Include="App_Data\TEMP\PluginCache\umbraco-plugins.NEPTUNE.hash" />
+    <Content Include="App_Data\TEMP\PluginCache\umbraco-plugins.NEPTUNE.list" />
+    <Content Include="App_Data\TEMP\SEOChecker\SEOChecker.config" />
+    <Content Include="App_Data\umbraco.config" />
     <None Include="packages.config" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Partials\Grid\Editors\Textstring.cshtml" />
@@ -364,6 +602,10 @@
   <ItemGroup>
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.0.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.Analyzers.dll" />
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.0.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\cache\" />
+    <Folder Include="App_Data\TEMP\Install\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
