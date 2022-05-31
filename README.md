@@ -11,9 +11,10 @@
    - Our.Umbraco.RedirectsViewer
    - Our.Umbraco.Vorto
    - skybrud inbound redirect
+* Go to the Migration Health Check click fix (work from bottom to top), until everything has green checkmarks. ;)
 * set version in web.config to 7.15.7 in v8 project
 * set v8 project as startup project
-* Store forms in database following these steps: https://our.umbraco.com/documentation/add-ons/umbracoforms/developer/Forms-in-the-Database/index-v8#migrating-forms-in-files-into-a-site
+* ### Is Done Automatically ### Store forms in database following these steps: https://our.umbraco.com/documentation/add-ons/umbracoforms/developer/Forms-in-the-Database/index-v8#migrating-forms-in-files-into-a-site
 * run v8 project (Ctrl + F5)
 * run upgrade
 * set v9 project as startup project

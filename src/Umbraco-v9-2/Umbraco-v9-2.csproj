@@ -187,22 +187,32 @@
       <Content Include="App_Plugins\UmbracoForms\Lang\fr-fr.xml" />
       <Content Include="App_Plugins\UmbracoForms\Lang\it-it.xml" />
       <Content Include="App_Plugins\UmbracoForms\Lang\pl-pl.xml" />
-      <Content Include="App_Plugins\Youtube.Editor\css\style.css" />
-      <Content Include="App_Plugins\Youtube.Editor\en-US.xml" />
-      <Content Include="App_Plugins\Youtube.Editor\package.xml" />
-      <Content Include="App_Plugins\Youtube.Editor\pt-BR.xml" />
-      <Content Include="App_Plugins\Youtube.Editor\Views\view.html" />
+      <Content Include="App_Plugins\Youtube.Editor\css\style.css">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="App_Plugins\Youtube.Editor\en-US.xml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="App_Plugins\Youtube.Editor\package.xml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="App_Plugins\Youtube.Editor\pt-BR.xml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="App_Plugins\Youtube.Editor\Views\view.html">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="SEOChecker" Version="9.0.0" />
-        <PackageReference Include="Umbraco.Cms" Version="9.4.3" />
+        <PackageReference Include="SEOChecker" Version="9.0.2" />
+        <PackageReference Include="Umbraco.Cms" Version="9.5.0" />
     </ItemGroup>
 
     <!-- Force windows to use ICU. Otherwise Windows 10 2019H1+ will do it, but older windows 10 and most if not all winodws servers will run NLS -->
     <ItemGroup>
         <PackageReference Include="Microsoft.ICU.ICU4C.Runtime" Version="68.2.0.9" />
-        <PackageReference Include="Umbraco.Forms" Version="9.4.0" />
+        <PackageReference Include="Umbraco.Forms" Version="9.4.1" />
         <RuntimeHostConfigurationOption Include="System.Globalization.AppLocalIcu" Value="68.2" />
     </ItemGroup>
     <ItemGroup>
@@ -237,10 +247,18 @@
       <None Include="App_Plugins\UmbracoForms\Xslt\Templates\Schema2\UmbracoContourListComments.xslt" />
       <None Include="App_Plugins\UmbracoForms\Xslt\Templates\UmbracoContourListComments.xslt" />
       <None Include="App_Plugins\UmbracoForms\Xslt\xml.xslt" />
-      <None Include="App_Plugins\Youtube.Editor\js\controller.js" />
-      <None Include="App_Plugins\Youtube.Editor\LICENSE" />
-      <None Include="App_Plugins\Youtube.Editor\package.manifest" />
-      <None Include="App_Plugins\Youtube.Editor\README.md" />
+      <None Include="App_Plugins\Youtube.Editor\js\controller.js">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Include="App_Plugins\Youtube.Editor\LICENSE">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Include="App_Plugins\Youtube.Editor\package.manifest">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Include="App_Plugins\Youtube.Editor\README.md">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
     </ItemGroup>
 
 
